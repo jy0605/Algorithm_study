@@ -5,7 +5,7 @@ namespace ForCodingTest
 {
     internal class Backjun_18014
     {
-        public void main()
+        static void Main_()
         {
 
             // 백준 - 18014 나이순 정렬
