@@ -8,7 +8,7 @@ namespace ForCodingTest
 {
     internal class Backjun_10989
     {
-        static void Main()
+        static void Main_()
         {
             int N = int.Parse(Console.ReadLine());
             int[] arrInt = new int[10001];
@@ -25,7 +25,7 @@ namespace ForCodingTest
                     continue;
                 for (int j = 0; j < arrInt[i]; j++)
                     Console.WriteLine(i);
-                Console.WriteLine(String.Join("\n", Enumerable.Repeat(i, arrInt[i]).ToArray()));
+                // Console.WriteLine(String.Join("\n", Enumerable.Repeat(i, arrInt[i]).ToArray()));
             }
         }
     }
