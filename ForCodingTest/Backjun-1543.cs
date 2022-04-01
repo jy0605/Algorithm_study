@@ -8,7 +8,7 @@ namespace ForCodingTest
 {
     internal class Backjun_1543
     {
-        static void Main()
+        static void Main_()
         {
 
             // 문서 길이는 최대 2,500, 단어길이는 최대 50
@@ -22,7 +22,7 @@ namespace ForCodingTest
             int idx = 0;
             int result = 0;
 
-            while (document.Length - idx > splitword.Length)
+            while (document.Length - idx >= splitword.Length)
             {
                 if (string.Join("", document.Skip(idx).Take(splitword.Length)) == splitword) // skip은 배열 ~에서 시작하도록. take는 배열에서 몇개요소 취할건지.
                 {

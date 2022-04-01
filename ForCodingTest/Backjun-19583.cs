@@ -10,6 +10,7 @@ namespace ForCodingTest
     {
         static void Main_()
         {
+            // 아직 푸는중!
             // 입장, 퇴장 list를 만든다
             // 입장과 퇴장 list의 공통 개수만 출력한다.
 
