@@ -8,7 +8,7 @@ namespace ForCodingTest
 {
     internal class Backjun_10171
     {
-        static void Main()
+        static void Main_()
         {
             Console.WriteLine(@"\    /\");
             Console.WriteLine(" )  ( ')");
