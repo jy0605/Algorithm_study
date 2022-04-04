@@ -11,7 +11,7 @@ namespace ForCodingTest
         // 페르마의 소정리 but 시간초과..
         const int M = 1000000007;
 
-        static void Main()
+        static void Main_()
         {
             char[] stdChar = { 'W', 'H', 'E' };
             Dictionary<char, List<int>> dicCharIndex = new Dictionary<char, List<int>>();
