@@ -8,7 +8,7 @@ namespace ForCodingTest
 {
     internal class Bacjun_1236 // 22.4.4 여기푸는중
     {
-        static void Main()
+        static void Main_()
         {
             string[] strInputNM = Console.ReadLine().Split(' ');
 
