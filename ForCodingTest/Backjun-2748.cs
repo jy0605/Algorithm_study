@@ -8,7 +8,7 @@ namespace ForCodingTest
 {
     internal class Backjun_2748
     {
-        static void Main()
+        static void Main_()
         {
             int N = int.Parse(Console.ReadLine());
 
