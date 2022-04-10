@@ -19,22 +19,43 @@ namespace ForCodingTest
 
             Dictionary<int, List<int>> nodes = new Dictionary<int, List<int>>();
 
-            List<int> visitedNode = new List<int>();
-
             for (int i = 0; i < linkcnt; i++)
             {
                 string[] thisinput = Console.ReadLine().Split(' ');
                 int thisnode = int.Parse(thisinput[0]);
                 int nextnode = int.Parse(thisinput[1]);
 
+                if (thisnode > nodecnt)
+                    continue;
+
                 if (! nodes.ContainsKey(thisnode))
                     nodes.Add(thisnode, new List<int>());   
                 nodes[thisnode].Add(nextnode);
             }
 
+            // BFS는 시작노드에서 방문할 수 있는 노드를 먼저 선출력 후 방문 마치면 그 다음 노드로 이동
             
+        }
 
+        public List<int> BFS(Dictionary<int, List<int>> nodes, int startNode)
+        {
+            List<int> visitedNode = new List<int>();
 
+            visitedNode.Add(startNode);
+
+            for (int i = 0; i < nodes.Count; i++)
+            {
+
+            }
+
+            return visitedNode;
+
+        }
+        public List<int> DFS(Dictionary<int, List<int>> nodes)
+        {
+            List<int> visitedNode = new List<int>();
+
+            return visitedNode;
         }
     }
 }
