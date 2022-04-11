@@ -10,7 +10,6 @@ namespace ForCodingTest
     {
         static void Main()
         {
-            // 문제 -- 2022. 4. 9 여기 푸는중! 내일 두문제 올리기!
             // https://www.acmicpc.net/problem/1260
             string[] inputStr = Console.ReadLine().Split(' ');
             int nodecnt = int.Parse(inputStr[0]);
@@ -37,9 +36,12 @@ namespace ForCodingTest
                 nodes[nextnode].Add(thisnode);
             }
 
+            Dictionary<int, List<int>> secNodes = new Dictionary<int, List<int>>();
+            secNodes = copyDictionary(nodes);
+
             // BFS는 시작노드에서 방문할 수 있는 노드를 먼저 선출력 후 방문 마치면 그 다음 노드로 이동
             List<int> listDFS = DFS(nodes, startNode);
-            List<int> listBFS = BFS(nodes, startNode);
+            List<int> listBFS = BFS(secNodes, startNode);
 
             Console.WriteLine(String.Join(" ", listDFS));
             Console.WriteLine(String.Join(" ", listBFS));
@@ -89,6 +91,16 @@ namespace ForCodingTest
             }
 
             return visitedNode;
+        }
+
+        public static Dictionary<int, List<int>> copyDictionary(Dictionary<int, List<int>> dict)
+        {
+            Dictionary<int, List<int>> newDict = new Dictionary<int, List<int>>();
+            List<KeyValuePair<int, List<int>>> pairs = dict.ToList();
+            pairs.ForEach(pair => newDict.Add(pair.Key, pair.Value));
+            //foreach (var key in dict.Keys) -> 이 방법은 return dictionary가 그대로 dict를 참조하므로 fail임
+            //    newDict.Add(key, dict[key]);
+            return newDict;
         }
     }
 }
