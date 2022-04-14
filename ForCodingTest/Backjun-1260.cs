@@ -8,7 +8,7 @@ namespace ForCodingTest
 {
     internal class Backjun_1260
     {
-        static void Main()
+        static void Main_()
         {
             // 2022.4.12 : 다른방식으로 풀어봐야겠다....
             // https://www.acmicpc.net/problem/1260

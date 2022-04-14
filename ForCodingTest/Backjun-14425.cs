@@ -8,7 +8,7 @@ namespace ForCodingTest
 {
     internal class Backjun_14425
     {
-        static void Main(string[] args)
+        static void Main_(string[] args)
         {
             // 시도1) 역시나, contains등 쓰면 시간초과 발생하게끔 문제를 만들었다. 역시나 트라이를 써야한다.
             // 아래는 timeout code

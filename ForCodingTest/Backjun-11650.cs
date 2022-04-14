@@ -14,7 +14,7 @@ namespace ForCodingTest
             int intN = N == null ? 0 : int.Parse(N);
 
             List<Tuple<int, int>> tList = new List<Tuple<int, int>>();
-            
+
             for (int i = 0; i < intN; i++)
             {
                 var varInput = Console.ReadLine();
@@ -24,10 +24,23 @@ namespace ForCodingTest
                 tList.Add(Tuple.Create(ArrIntInput[0], ArrIntInput[1]));
             }
 
-            tList.Sort();
 
             foreach (var t in tList)
                 Console.WriteLine("{0} {1}", t.Item1, t.Item2);
+        }
+
+        static int[] quickSort(int[] intArray)
+        {
+            int[] res = new int[intArray.Length]; // 0으로 초기화
+
+            int pivot = 0;
+            while ()
+            {
+
+            }
+
+
+            return res;
         }
     }
 }
