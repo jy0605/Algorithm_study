@@ -34,10 +34,6 @@ namespace ForCodingTest
             int[] res = new int[intArray.Length]; // 0으로 초기화
 
             int pivot = 0;
-            while ()
-            {
-
-            }
 
 
             return res;
