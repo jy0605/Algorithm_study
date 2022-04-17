@@ -8,8 +8,10 @@ namespace ForCodingTest
 {
     internal class Backjun_9205
     {
-        static void Main()
+        static void Main_()
         {
+            // BFS로 재구현해서 풀어보기
+
             int t = int.Parse(Console.ReadLine());
 
             for (int i = 0; i < t; i++) {
