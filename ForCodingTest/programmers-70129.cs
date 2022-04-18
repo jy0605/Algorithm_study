@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ForCodingTest
 {
@@ -20,6 +16,7 @@ namespace ForCodingTest
         {
             int[] answer = new int[] { 0, 0 };
             string thisS = "";
+
 
             for (int i = 0; i < s.Length; i++)
             {
@@ -57,6 +54,22 @@ namespace ForCodingTest
                 int[] thisAnswer = solution(thisS);
                 answer[0] += thisAnswer[0];
                 answer[1] += thisAnswer[1];
+            }
+
+            return answer;
+        }
+
+        public int[] solution_of_The_Other(string s)
+        {
+            int[] answer = new int[] { 0, 0 };
+
+            while (!s.Equals("1"))
+            {
+                answer[0]++;
+                var OneCharCount = s.Where(x => x.Equals('1')).Count();
+                answer[1] += s.Length - OneCharCount;
+
+                s = Convert.ToString(OneCharCount, 2);
             }
 
             return answer;
