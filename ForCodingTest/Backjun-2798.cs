@@ -8,7 +8,7 @@ namespace ForCodingTest
 {
     internal class Backjun_2798
     {
-        static void Main()
+        static void Main_()
         {
             // 브루트포스(Brute force) 알고리즘
             // 해가 존재할 것으로 예상되는 모든 영역을 전체 탐색하는 방법
