@@ -5,7 +5,7 @@ namespace ForCodingTest
     internal class programmers_70129
     {
         // 이진변환 반복하기
-        static void Main()
+        static void Main_()
         {
             string thisInput = Console.ReadLine();
             int[] thisOutput = solution(thisInput);
