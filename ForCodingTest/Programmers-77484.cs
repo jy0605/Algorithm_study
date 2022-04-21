@@ -6,7 +6,7 @@ namespace ForCodingTest
 {
     internal class Programmers_77484
     {
-        public static void Main()
+        public static void Main_()
         {
             int[] lottos = Array.ConvertAll(Console.ReadLine().Split(','), int.Parse);
             int[] win_nums = Array.ConvertAll(Console.ReadLine().Split(','), int.Parse);
