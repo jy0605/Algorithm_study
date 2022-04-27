@@ -8,7 +8,7 @@ namespace ForCodingTest
 {
     internal class Backjun_9934
     {
-        static void Main()
+        static void Main_()
         {
             // 완전이진트리
 
