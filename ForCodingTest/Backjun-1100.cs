@@ -8,7 +8,7 @@ namespace ForCodingTest
 {
     internal class Backjun_1100
     {
-        public static void Main()
+        public static void Main_()
         {
             int countofmal = 0;
 
