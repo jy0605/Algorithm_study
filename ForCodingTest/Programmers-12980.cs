@@ -5,7 +5,7 @@ namespace ForCodingTest
     internal class Programmers_12980
     {
 
-        static public void Main()
+        static public void Main_()
         {
             int thisN = int.Parse(Console.ReadLine());
             Console.WriteLine(solution(thisN));

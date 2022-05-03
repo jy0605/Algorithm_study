@@ -8,7 +8,7 @@ namespace ForCodingTest
 {
     internal class Programmers_87390
     {
-        static void Main()
+        static void Main_()
         {
 
         }
