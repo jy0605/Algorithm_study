@@ -6,7 +6,7 @@ namespace ConsoleApp1_for_pratice
 {
     class Backjun_1110
     {
-        static void Main()
+        static void Main_()
         {
             // 더하기 사이클
 

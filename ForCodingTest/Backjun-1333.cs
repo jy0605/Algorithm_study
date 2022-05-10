@@ -4,7 +4,7 @@ namespace ForCodingTest
 {
     internal class Backjun_1333
     {
-        static void Main()
+        static void Main_()
         {
             // 노래 N곡, 노래 길이 L초, 노래사이 5초 fade
             // 첫곡의 순간이 0초, 0초부터 전화벨 ring, 전화벨은 D 초에 1번씩 1초동안 ring.
