@@ -14,7 +14,7 @@ namespace ForCodingTest
 
     internal class Backjun_1343
     {
-        static void Main()
+        static void Main_()
         {
             string[] inputLines = Console.ReadLine().Split('.');
             string result = string.Empty;
