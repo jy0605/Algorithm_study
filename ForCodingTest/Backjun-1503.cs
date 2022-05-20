@@ -8,7 +8,7 @@ namespace ForCodingTest
 {
     internal class Backjun_1503
     {
-        static void Main()
+        static void Main_()
         {
             // N의 범위가 1000 이하이므로 완전탐색으로 풀이를 진행한다.
             string[] inputs = Console.ReadLine().Split(' ');
