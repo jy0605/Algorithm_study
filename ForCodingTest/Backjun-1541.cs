@@ -6,7 +6,7 @@ namespace ForCodingTest
     internal class Backjun_1541
     {
 
-        static void Main()
+        static void Main_()
         {
             string exp = Console.ReadLine();
             string[] arrExpbyminus = exp.Split('-');
