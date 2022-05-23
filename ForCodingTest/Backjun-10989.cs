@@ -8,9 +8,9 @@ namespace ForCodingTest
 {
     internal class Backjun_10989
     {
-        static void Main()
+        static void Main_()
         {
-            // 22.5.21 메모리초과, 시간초과... 흠
+            // 22.5.21 메모리초과, 시간초과... 흠. 정렬알고리즘..
             int N = int.Parse(Console.ReadLine());
             int maxNumber = 0;
             string[] strArrofNumbers = new string[10001];
