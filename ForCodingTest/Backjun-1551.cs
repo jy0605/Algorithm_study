@@ -4,7 +4,7 @@ namespace ForCodingTest
 {
     internal class Backjun_1551
     {
-        static void Main()
+        static void Main_()
         {
             string[] strInput = Console.ReadLine().Split(' ');
             int N = int.Parse(strInput[0]);
