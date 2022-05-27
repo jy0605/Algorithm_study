@@ -8,10 +8,10 @@ namespace ForCodingTest
 {
     internal class Backjun_1645
     {
-        static void Main()
+        static void Main_()
         {
             int N = int.Parse(Console.ReadLine());
-            int[] arrK = new int[N + 1];
+            int[] arrK = new int[10001];
 
             for (int i = 0; i < N; i++)
             {
@@ -27,6 +27,8 @@ namespace ForCodingTest
                     minNumberOfStudent = i + 1;
                     break;
                 }
+                if (i > N)
+                    break;
             }
 
             Console.WriteLine(minNumberOfStudent);
