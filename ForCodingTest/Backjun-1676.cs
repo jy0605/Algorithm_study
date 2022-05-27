@@ -11,28 +11,10 @@ namespace ForCodingTest
         public static void Main()
         {
             int N = int.Parse(Console.ReadLine());
-            //string[] arrNfac = new string[N];
-            //float Nfac = 1;
-
-            //for (int i = 1; i < N + 1; i++)
-            //{
-            //    Nfac = Nfac * i;
-            //    arrNfac[i - 1] = Nfac.ToString();
-            //}
-
-            //string strNfac = Nfac.ToString();
-            //int zeroCount = 0;
-
-            //for(int i = strNfac.Length - 1; i > -1; i--)
-            //{
-            //    if (strNfac[i] != '0')
-            //        break;
-            //    else
-            //        zeroCount++;
-            //}
-
-            //Console.WriteLine(String.Join(',', arrNfac));
-            Console.WriteLine(/*zeroCount*/Math.DivRem(N,5).Quotient);
+            // 5의 배수의 개수는 10의 개수와 동일
+            // 25는 5가 두개이므로 10이 두 개인것과 동일
+            // 125는 5가 세개이므로 10이 세 개인것과 동일
+            Console.WriteLine(Math.DivRem(N,5).Quotient + Math.DivRem(N,25).Quotient + Math.DivRem(N, 125).Quotient);
 
         }
     }
