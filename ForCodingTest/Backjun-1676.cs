@@ -8,7 +8,7 @@ namespace ForCodingTest
 {
     internal class Backjun_1676
     {
-        public static void Main()
+        public static void Main_()
         {
             int N = int.Parse(Console.ReadLine());
             // 5의 배수의 개수는 10의 개수와 동일
