@@ -8,7 +8,7 @@ namespace ForCodingTest
 {
     internal class Backjun_1145
     {
-        static void Main()
+        static void Main_()
         {
             // 브루트포스 알고리즘
             // 순차탐색, DFS, BFS(어떤방법으로든 전체탐색으로 문제를 풀었다면 브루트포스 알고리즘)
