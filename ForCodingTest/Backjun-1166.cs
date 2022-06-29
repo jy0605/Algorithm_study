@@ -8,7 +8,7 @@ namespace ForCodingTest
 {
     internal class Backjun_1166
     {
-        static void Main()
+        static void Main_()
         {
             // 이분탐색
             // ref => https://subin-programming.tistory.com/368
