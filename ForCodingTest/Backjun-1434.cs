@@ -24,7 +24,9 @@ namespace ForCodingTest
             for (int i = 0; i < arrBooks.Length; i++)
             {
                 if (arrBooks[i] <= listBoxes[0])
+                {
                     listBoxes[0] -= arrBooks[i];
+                }
                 else
                 {
                     wastedCapacity += listBoxes[0];
@@ -32,6 +34,9 @@ namespace ForCodingTest
                     i--;
                 }
             }
+
+            for (int j = 0; j < listBoxes.Count; j++)
+                wastedCapacity += listBoxes[j];
 
             Console.WriteLine(wastedCapacity);
 
